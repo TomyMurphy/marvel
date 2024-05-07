@@ -69,7 +69,7 @@ export default function Search() {
     return <>
     <form className="search" onSubmit={handleSubmit}>
         <input placeholder="ENTER CHARACTER NAME" type="text" onChange={handleChange} />
-        <div className="buttons">
+        <div className="buttons">   
             <button type="submit">Get character data</button>
             <button type="reset" className="reset" onClick={handleReset}>Reset</button>
         </div>
